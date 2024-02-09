@@ -1,0 +1,21 @@
+# SPLDV MEMAKAI CARA MANUAL
+
+print("Persamaan Linear Dua Variabel")
+print("ax + by = c")
+print("")
+print("\t")
+print("Persamaan 1 (ax + by = c)")
+a = float(input("Masukan A : "))
+b = float(input("Masukan B : "))
+c = float(input("Masukan C : "))
+print("\t")
+print("Persamaan 2 (px + qy = r)")
+p = float(input("Masukan P : "))
+q = float(input("Masukan Q : "))
+r = float(input("Masukan R : "))
+
+x = (c*q-r*b)/(a*q-p*b)
+y = (1/b)*(c-a*x)
+print("Solusi SPLDV")
+print(f"X = {x}")
+print(f"Y = {y}")
